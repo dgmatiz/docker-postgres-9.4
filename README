@@ -1,0 +1,9 @@
+##Usage##
+To run with default settings
+docker run -P --name postgres -d dgmatiz/postgres-9.4
+
+To run with customized settings
+docker run -P --name postgres -e USER=foo -e PASSWORD=bar -e SCHEMA=foo -e ENCODING=UTF8 -d dgmatiz/postgres-9.4
+
+
+
